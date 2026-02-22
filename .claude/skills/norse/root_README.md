@@ -1,8 +1,6 @@
-<p align="center">
-<img src="https://raw.githubusercontent.com/norse/norse/main/logo.png">
-</p>
+# norse
 
-A [deep learning](https://en.wikipedia.org/wiki/Deep_learning) library for [spiking neural networks](https://en.wikipedia.org/wiki/Spiking_neural_network).
+A deep learning library for spiking neural networks.
 
 <p align="center">
     <a href="https://github.com/norse/norse/actions">
