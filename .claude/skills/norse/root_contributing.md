@@ -21,12 +21,8 @@ Bug reports are most welcome, but please be as specific and constructive as poss
 Assuming you have a feature you would like to implement, we recommend the following steps:
 1. Fork the repository
 2. Implement your feature
-3. Make sure the feature is tested using pytest and that your test passes
+3. Make sure the feature is tested using [pytest](https://pytest.org/en/latest/) and that your test *passes*
 4. Push the code to your fork and submit a pull request, possibly with a link to any issues of relevance
 5. React to any feedback we give around the fork. We might ask you to fix minor issues before merging it with the main branch.
 
 We will try to get around to your contributions as fast as possible. And thank you for taking the time to improve the code!
-
-## Source
-
-This skill is generated from `/tmp/norse_repo/contributing.md`

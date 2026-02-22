@@ -1,46 +1,40 @@
-# Norse - Deep Learning Library for Spiking Neural Networks
+# Norse Library Skills
 
-A deep learning library for spiking neural networks (SNN).
+这个技能包含 Norse 项目的文档文件。以下是所有可用的文件列表：
 
-## Source Files
+## 文件列表
 
-This skill is generated from the Norse project documentation. The following source files are available:
+### 根目录文件
+- `root_README.md` - Norse 项目主 README (来自 `/tmp/norse_repo/README.md`)
+- `root_contributing.md` - 贡献指南 (来自 `/tmp/norse_repo/contributing.md`)
 
-- `/tmp/norse_repo/README.md` - Main project README
-- `/tmp/norse_repo/contributing.md` - Contribution guidelines
-- `/tmp/norse_repo/docs/pages/hardware.rst` - Hardware acceleration documentation
-- `/tmp/norse_repo/docs/norse.torch.rst` - norse.torch module documentation
-- `/tmp/norse_repo/docs/norse.torch.functional.rst` - norse.torch.functional documentation
-- `/tmp/norse_repo/docs/pages/development.md` - Development documentation
-- `/tmp/norse_repo/docs/pages/tasks.rst` - Running tasks documentation
-- `/tmp/norse_repo/docs/pages/about.rst` - About Norse
-- `/tmp/norse_repo/docs/api.rst` - Complete API documentation
-- `/tmp/norse_repo/docs/index.rst` - Documentation index
-- `/tmp/norse_repo/docs/_toc.yml` - Table of contents
-- `/tmp/norse_repo/norse/torch/functional/coba_lif.py` - Conductance based LIF neuron
-- `/tmp/norse_repo/norse/benchmark/README.md` - Benchmark documentation
+### 文档页面 (docs/pages/)
+- `hardware.rst` - 硬件加速文档 (来自 `/tmp/norse_repo/docs/pages/hardware.rst`)
+- `development.md` - 开发文档 (来自 `/tmp/norse_repo/docs/pages/development.md`)
+- `tasks.rst` - 任务文档 (来自 `/tmp/norse_repo/docs/pages/tasks.rst`)
+- `about.rst` - 关于 Norse (来自 `/tmp/norse_repo/docs/pages/about.rst`)
 
-## Quick Links
+### API 文档 (docs/)
+- `norse.torch.rst` - norse.torch 模块文档 (来自 `/tmp/norse_repo/docs/norse.torch.rst`)
+- `norse.torch.functional.rst` - norse.torch.functional 文档 (来自 `/tmp/norse_repo/docs/norse.torch.functional.rst`)
+- `api.rst` - 完整 API 文档 (来自 `/tmp/norse_repo/docs/api.rst`)
+- `index.rst` - 文档索引 (来自 `/tmp/norse_repo/docs/index.rst`)
+- `_toc.yml` - 目录配置 (来自 `/tmp/norse_repo/docs/_toc.yml`)
 
-- **Installation**: See `/tmp/norse_repo/README.md` section 2.1
-- **Examples**: See `/tmp/norse_repo/README.md` sections 2.3 and 2.4
-- **Tasks**: See `/tmp/norse_repo/docs/pages/tasks.rst`
-- **Hardware Acceleration**: See `/tmp/norse_repo/docs/pages/hardware.rst`
-- **Development**: See `/tmp/norse_repo/docs/pages/development.md`
-- **API Reference**: See `/tmp/norse_repo/docs/norse.torch.rst` and `/tmp/norse_repo/docs/norse.torch.functional.rst`
+### 基准测试 (norse/benchmark/)
+- `benchmark_README.md` - 基准测试文档 (来自 `/tmp/norse_repo/norse/benchmark/README.md`)
 
-## Usage
+### 源代码 (norse/torch/functional/)
+- `functional_coba_lif.py` - 电导-based LIF 神经元实现 (来自 `/tmp/norse_repo/norse/torch/functional/coba_lif.py`)
 
-To use Norse for spiking neural networks:
+## 使用说明
 
-```python
-import torch
-import norse.torch as snn
+这些文件是从 Norse 项目复制的完整文档。你可以直接阅读这些文件来了解 Norse 的使用方法。
 
-# Create a Leaky Integrate-and-Fire (LIF) neuron
-layer = snn.LIFCell(input_features=10, hidden_features=20)
+例如，要了解如何安装和使用 Norse，请查看 `root_README.md`。
+要了解如何为 Norse 做贡献，请查看 `root_contributing.md`。
+要了解神经元的功能实现，请查看 `functional_coba_lif.py`。
 
-# Run on input data
-data = torch.randn(8, 10)  # batch_size=8, input_features=10
-output, state = layer(data)
-```
+## 源文件位置
+
+所有源文件位于: `/tmp/norse_repo/`
