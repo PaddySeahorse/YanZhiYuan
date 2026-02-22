@@ -5,27 +5,27 @@
 ## 文件列表
 
 ### 根目录文件
-- `root_README.md` - Norse 项目主 README (来自 `/tmp/norse_repo/README.md`)
-- `root_contributing.md` - 贡献指南 (来自 `/tmp/norse_repo/contributing.md`)
+- `root_README.md` - Norse 项目主 README
+- `root_contributing.md` - 贡献指南
 
 ### 文档页面 (docs/pages/)
-- `hardware.rst` - 硬件加速文档 (来自 `/tmp/norse_repo/docs/pages/hardware.rst`)
-- `development.md` - 开发文档 (来自 `/tmp/norse_repo/docs/pages/development.md`)
-- `tasks.rst` - 任务文档 (来自 `/tmp/norse_repo/docs/pages/tasks.rst`)
-- `about.rst` - 关于 Norse (来自 `/tmp/norse_repo/docs/pages/about.rst`)
+- `hardware.rst` - 硬件加速文档
+- `development.md` - 开发文档
+- `tasks.rst` - 任务文档
+- `about.rst` - 关于 Norse
 
 ### API 文档 (docs/)
-- `norse.torch.rst` - norse.torch 模块文档 (来自 `/tmp/norse_repo/docs/norse.torch.rst`)
-- `norse.torch.functional.rst` - norse.torch.functional 文档 (来自 `/tmp/norse_repo/docs/norse.torch.functional.rst`)
-- `api.rst` - 完整 API 文档 (来自 `/tmp/norse_repo/docs/api.rst`)
-- `index.rst` - 文档索引 (来自 `/tmp/norse_repo/docs/index.rst`)
-- `_toc.yml` - 目录配置 (来自 `/tmp/norse_repo/docs/_toc.yml`)
+- `norse.torch.rst` - norse.torch 模块文档
+- `norse.torch.functional.rst` - norse.torch.functional 文档
+- `api.rst` - 完整 API 文档
+- `index.rst` - 文档索引
+- `_toc.yml` - 目录配置
 
 ### 基准测试 (norse/benchmark/)
-- `benchmark_README.md` - 基准测试文档 (来自 `/tmp/norse_repo/norse/benchmark/README.md`)
+- `benchmark_README.md` - 基准测试文档
 
 ### 源代码 (norse/torch/functional/)
-- `functional_coba_lif.py` - 电导-based LIF 神经元实现 (来自 `/tmp/norse_repo/norse/torch/functional/coba_lif.py`)
+- `functional_coba_lif.py` - 电导-based LIF 神经元实现
 
 ## 使用说明
 
@@ -34,7 +34,3 @@
 例如，要了解如何安装和使用 Norse，请查看 `root_README.md`。
 要了解如何为 Norse 做贡献，请查看 `root_contributing.md`。
 要了解神经元的功能实现，请查看 `functional_coba_lif.py`。
-
-## 源文件位置
-
-所有源文件位于: `/tmp/norse_repo/`
