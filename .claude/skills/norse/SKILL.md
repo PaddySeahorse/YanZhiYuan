@@ -22,7 +22,7 @@ references:
 
 # Norse - Spiking Neural Networks for PyTorch
 
-Norse is a deep learning library for [spiking neural networks (SNN)](https://en.wikipedia.org/wiki/Spiking_neural_network) that extends PyTorch with bio-inspired neural components.
+Norse is a deep learning library for spiking neural networks (SNN) that extends PyTorch with bio-inspired neural components.
 
 ## Quick Start
 
@@ -220,7 +220,7 @@ output, state = layer(data)
 
 ### NIR Interoperability
 
-Norse supports [Neural Intermediate Representation (NIR)](https://github.com/neuralnir) for interoperability:
+Norse supports Neural Intermediate Representation (NIR) for interoperability:
 
 ```python
 from norse.torch.utils import from_nir, to_nir
