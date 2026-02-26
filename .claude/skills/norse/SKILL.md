@@ -1,23 +1,6 @@
 ---
 name: norse
 description: A deep learning library for spiking neural networks (SNN). Use when working with bio-inspired neural components, event-driven sparse operations, neuron models (LIF, Izhikevich, LSNN), encoding methods (poisson, population, latency), STDP learning, or building stateful SNN architectures.
-references:
-  - neurons/README.md
-  - neurons/lif.md
-  - neurons/izhikevich.md
-  - neurons/lsnn.md
-  - neurons/iaf.md
-  - neurons/other.md
-  - encoding/README.md
-  - encoding/poisson.md
-  - encoding/population.md
-  - encoding/latency.md
-  - learning/README.md
-  - learning/stdp.md
-  - networks/README.md
-  - networks/sequential.md
-  - networks/models.md
-  - activation/README.md
 ---
 
 # Norse - Spiking Neural Networks for PyTorch
